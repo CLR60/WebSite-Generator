@@ -1,0 +1,29 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #000;
+}
+
+#moduleCarousel{
+	margin-top: 60px;
+}
+
+.imgSection3{
+	width: 1120px;
+	height: 500px;
+}
+
+.paragraph1{
+	float: left;
+}
+
+.paragraph2{
+	float: right;
+}
+
+pre, p, h1{
+	color: #FFF;
+}
