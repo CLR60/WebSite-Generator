@@ -4,7 +4,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <a href="#" class="navbar-brand">Lorem Ipsum</a>
+        <a href="index.php" class="navbar-brand">Lorem Ipsum</a>
         <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar9">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -17,7 +17,7 @@
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Connexion</a>
+                    <a class="nav-link" href="admin.php">Connexion</a>
                 </li>
             </ul>
         </div>
