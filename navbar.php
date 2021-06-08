@@ -14,7 +14,7 @@
                     <a class="nav-link" data-toggle="modal" data-target="#projet">A propos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="contact.php">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Connexion</a>
