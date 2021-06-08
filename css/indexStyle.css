@@ -1,3 +1,5 @@
+/*GENERALE*/
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -7,23 +9,61 @@ body{
 	background-color: #000;
 }
 
+pre, p, h1{
+	color: #FFF;
+}
+
+/*SECTION 1*/
+
 #moduleCarousel{
 	margin-top: 60px;
 }
 
+/*SECTION 2*/
+
+#moduleText{
+	margin-top: 40px;
+}
+
+.boxText{
+	padding-left: 60px;
+	background-color: #FFF;
+	border-radius: 10px;
+	box-shadow: 1px 1px 12px #555;
+}
+
+.boxText, h1, pre{
+	color: #000;
+}
+
+/*SECTION 3*/
+
+#moduleImage{
+	margin-top: 40px;
+}
+
 .imgSection3{
-	width: 1120px;
-	height: 500px;
+	max-width : 100%;
+	heigth: auto;
+	display: block;
 }
 
-.paragraph1{
-	float: left;
+/*SECTION 4*/
+
+#moduleSplit{
+	margin-top: 40px;
+	margin-bottom: 60px;
 }
 
-.paragraph2{
-	float: right;
+.boxSplit{
+	background-color: #FFF;
+	border-radius: 10px;
+	box-shadow: 1px 1px 12px #555;
 }
 
-pre, p, h1{
-	color: #FFF;
+.boxSplit, p{
+	color: #000;
 }
+
+
+
