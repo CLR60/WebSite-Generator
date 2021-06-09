@@ -1,10 +1,10 @@
 <head>
-	<link rel="stylesheet" type="text/css" href="css/navbarStyle.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/navbarStyle.css">
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <a href="./" class="navbar-brand">Lorem Ipsum</a>
+        <a href="./" class="navbar-brand">FORMULA 1</a>
         <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar9">
             <span class="navbar-toggler-icon"></span>
         </button>

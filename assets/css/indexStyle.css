@@ -5,30 +5,119 @@
 	padding: 0px;
 }
 
-body{
-	background-color: #000;
-}
-
 pre, p, h1{
 	color: #FFF;
 }
 
+
+
+
+
+/*ACCUEIL*/
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(assets/images/menu.jpg);
+	height: 800px;
+	background-size: cover;
+	background-position: center center;
+}
+
+.textAccueil{
+	position: absolute;
+	margin-top: 350px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.boutonInfo a{
+	border: 1px solid #FFF;
+	border-radius: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 50px;
+	display: inline-block;
+	margin-top: 45px;
+	color: #FFF;
+}
+
+.boutonInfo a:hover{
+	background-color: #FFF;
+	color: #000;
+}
+
+.textArea h1{
+	color: #FFF;
+	font-size: 70px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 1px solid #FFF;
+}
+
+
+
+
+
 /*SECTION 1*/
 
 #moduleCarousel{
-	margin-top: 60px;
+	width: 100%;
+	height: auto;
+	padding: 100px;
+	background-color: black;
 }
+
+.carouselImage{
+	float: left;
+	width: 48%;
+}
+
+.textCarousel{
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+
+.boxText3{
+	width: 100%;
+	background-color: #FFF;
+	border-radius: 10px;
+	padding-left: 20px;
+	box-shadow: 1px 1px 12px #555;
+}
+
+.carousel-item{
+	width: 100%;
+	height: auto;
+}
+
+.carousel-item, img{
+	width: 100%;
+	height: auto;
+}
+
+
+
 
 /*SECTION 2*/
 
 #moduleText{
-	margin-top: 40px;
+	margin-top: 80px;
 }
 
 .boxText{
-	padding-left: 60px;
+	width: 47%;
+	padding-left: 20px;
 	background-color: #FFF;
 	border-radius: 10px;
+	box-shadow: 1px 1px 12px #555;
+}
+
+.boxText2{
+	width: 47%;
+	background-color: #FFF;
+	border-radius: 10px;
+	padding-left: 20px;
 	box-shadow: 1px 1px 12px #555;
 }
 
@@ -36,10 +125,14 @@ pre, p, h1{
 	color: #000;
 }
 
+
+
+
+
 /*SECTION 3*/
 
 #moduleImage{
-	margin-top: 40px;
+	margin-top: 80px;
 }
 
 .imgSection3{
@@ -47,6 +140,10 @@ pre, p, h1{
 	heigth: auto;
 	display: block;
 }
+
+
+
+
 
 /*SECTION 4*/
 
