@@ -26,6 +26,32 @@
 		</div>
 	</header>
 
+	<section id="moduleImage">
+		<div class="container">
+			<img class="img-responsive imgSection3" src="assets/images/accueil.jpg">
+		</div>	
+	</section>
+
+	<section id="moduleText">
+		<div class="container">
+			<div class="float-left boxText">
+				<h1>Lorem Ipsum</h1>
+				<pre>Neque porro quisqu
+					am est qui dolorem ipsum quia 
+					dolor sit amet, consecte
+				tur, adipisci velit...</pre>
+			</div>
+			<div class="float-right boxText2">
+				<h1>Lorem Ipsum</h1>
+				<pre>Neque porro quisqu
+					am est qui dolorem ipsum quia 
+					dolor sit amet, consecte
+				tur, adipisci velit...</pre>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</section>
+
 	<section id="moduleCarousel">
 		<div class="container">
 			<div class="carouselImage">
@@ -71,32 +97,6 @@
 			<div class="clearfix"></div>
 
 		</div>
-	</section>
-
-	<section id="moduleText">
-		<div class="container">
-			<div class="float-left boxText">
-				<h1>Lorem Ipsum</h1>
-				<pre>Neque porro quisqu
-					am est qui dolorem ipsum quia 
-					dolor sit amet, consecte
-				tur, adipisci velit...</pre>
-			</div>
-			<div class="float-right boxText2">
-				<h1>Lorem Ipsum</h1>
-				<pre>Neque porro quisqu
-					am est qui dolorem ipsum quia 
-					dolor sit amet, consecte
-				tur, adipisci velit...</pre>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</section>
-
-	<section id="moduleImage">
-		<div class="container">
-			<img class="img-responsive imgSection3" src="assets/images/accueil.jpg">
-		</div>	
 	</section>
 
 	<section id="moduleSplit">

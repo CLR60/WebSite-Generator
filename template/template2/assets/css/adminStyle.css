@@ -1,68 +1,57 @@
+#moduleConnexion{
+  margin-top: 100px;
+  display: flex;
+  justify-content:center;
+  flex-direction: columns;
+  align-items: center;
+}
+
 body{
-	background-color: #000;
+  background-color: #000;
 }
 
-
-.loginbox{
-	
-	width: 320px;
-	height: 420px;
-	background: #FFF;
-	color: #000;
-	top: 50%;
-	left: 50%;
-	position: absolute;
-	transform: translate(-50%,-50%);
-	box-sizing: border-box;
-	padding: 70px 30px; 
+form {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 40px 60px;
+  border-radius: 10px;
+  min-width: 300px;
+}
+form h1{
+  color: #eb7371;
+  text-align:center;
 }
 
-h1{
-	margin: 0;
-	padding-bottom: 20px;
-	text-align: center;
-	font-size: 22px;
+form p.choose-email{
+  text-align:center;
 }
-
-.loginbox p{
-	margin: 0;
-	padding: 0;
-	font-weight: bold;
+form .inputs {
+  display: flex;
+  flex-direction: column;
 }
-
-.loginbox input{
-	width: 100%;
-	margin-bottom: 20px;
+form .inputs input[type='email'], input[type='password']{
+  padding: 15px;
+  border:none;
+  border-radius: 5px;
+  background-color:#f2f2f2;
+  outline:none;
+  margin-bottom: 15px;
 }
-
-.loginbox input[type="text"], input[type="password"]{
-	border: none;
-	border-bottom: 1px solid #000;
-	background: transparent;
-	outline: none;
-	height: 40px;
-	color: #000;
-	font-size: 16px;
+form p.inscription{
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #878787;
 }
-
-.loginbox input[type="submit"]{
-	border: none;
-	outline: none;
-	height: 40px;
-	background: #000;
-	color: #FFF;
-	font-size: 18px;
-	border-radius: 20px;
+form p.inscription span{
+  color: #eb7371;
 }
-
-.loginbox input[type="submit"]:hover{
-	cursor: pointer;
-	background: #FFF;
-	color: #000;
-}
-
-.loginbox a{
-	text-decoration: none;
-	font-size: 12px;
-	color: red;
+form button{
+  padding: 15px 25px;
+  border-radius: 5px;
+  border:none;
+  font-size: 15px;
+  color: #fff;
+  background-color: #eb7371;
+  outline:none;
+  cursor:pointer;
 }
