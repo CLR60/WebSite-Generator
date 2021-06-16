@@ -1,0 +1,35 @@
+.choix{
+	text-align: center;;
+}
+
+/*etapes*/
+
+.bloc{
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background-color: black;
+}
+
+.texte{
+    font-family: cambria;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+}
+
+.column {
+     padding-bottom: 50px;
+     padding-top: 50px;
+    }
+
+.titreEtape{
+	text-align: center; 
+	color: white;
+}
+
+/*templates*/
+
+#templates{
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
