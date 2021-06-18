@@ -1,0 +1,87 @@
+#moduleContact {
+  background-color: #417fe2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  margin: 25px auto;
+  color: white;
+}
+
+  form {
+  position: relative;
+  padding: 50px;
+  width: 750px;
+  max-width: 100%;
+  height: 300px;
+  box-shadow: 0 0 20px #333; //margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+    background-color: white;
+  }
+  input {
+    width: 65%;
+    border: none;
+    display: block;
+    margin: auto;
+    border-bottom: 2px solid #d5d5d5;
+    font-size: 1.625rem;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-footer form {
+    margin: 0 20px;
+  }
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  outline: none;
+  border-bottom: 2px solid #555;
+}
+
+input[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  border-bottom: 2px solid #555;
+}
+
+label input[name="submit"] {
+  display: none;
+}
+
+label svg {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 60px;
+  bottom: -40px;
+  &:hover {
+    box-shadow: 0 0 15px #777;
+  }
+}
+
+::-webkit-input-placeholder {
+  color: #d5d5d5;
+}
+
+::-moz-placeholder {
+  color: #d5d5d5;
+}
+
+::-ms-placeholder {
+  color: #d5d5d5;
+}
+
+::placeholder {
+  color: #d5d5d5;
+}
