@@ -2,7 +2,15 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/navbarStyle.css">
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<style type="text/css">
+
+nav{
+    background-color: red;
+}
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
         <a href="./" class="navbar-brand">FORMULA 1</a>
         <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar9">
