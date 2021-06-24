@@ -1017,3 +1017,5 @@
         }
     }
 }
+.center-image-vertical{position: relative;top: 50%;transform: translateY(-50%);}
+.center-image-horizontal{position: relative;left: 50%;transform: translateX(-50%);}
