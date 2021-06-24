@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<?php // $up = ''; ?>
-	<?php // $title = 'portfolio v1.4'; ?>
 	<?php $aPropos = true; ?>
 	<?php include('components/head.php'); ?>
 	<link rel="stylesheet" type="text/css" href="assets/css/indexStyle.css">
@@ -28,7 +26,7 @@
 
 	<section id="moduleCarousel">
 		<div class="container">
-			<div class="carouselImage">
+			<div class="carouselImage carousel-fixed-height">
 				<div class="descriptifCarousel">
 					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 						<ol class="carousel-indicators">
@@ -38,13 +36,13 @@
 						</ol>
 						<div class="carousel-inner">
 							<div class="carousel-item active">
-								<img class="d-block w-100 " src="assets/images/accueil.jpg" alt="page d'accueil">
+								<img class="d-block w-100 center-image-vertical" src="assets/images/accueil.jpg" alt="page d'accueil">
 							</div>
 							<div class="carousel-item">
-								<img class="d-block w-100" src="assets/images/accueil2.jpg" alt="page des réalisations">
+								<img class="d-block w-100 center-image-vertical" src="assets/images/accueil2.jpg" alt="page des réalisations">
 							</div>
 							<div class="carousel-item">
-								<img class="d-block w-100" src="assets/images/accueil3.jpg" alt="page de contact">
+								<img class="d-block w-100 center-image-vertical" src="assets/images/accueil3.jpg" alt="page de contact">
 							</div>
 						</div>
 						<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -144,6 +142,7 @@
 
 	<?php
 	require("components/footer.php");
+	require("components/script.php");
 	?>
 
 </body>
